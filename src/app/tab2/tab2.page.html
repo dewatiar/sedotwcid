@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Se.WC ID
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p align="center">
+  <img src="assets/pembersih toilet.jpg" widht="50" height="100" alt="" />
+  </p>
+  <ion-card class="welcome-card">
+    <ion-slides autoplay="5000" loop="true" speed="3000">
+      <ion-slide>
+        <img src="assets/11.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/13.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/14.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/12.jpg" alt="" />
+      </ion-slide>
+    </ion-slides>
+    <ion-card-header>
+    <P align="center">
+      <ion-card-subtitle>MEMPERSEMBAHKAN</ion-card-subtitle>
+      <ion-card-title>LAYANAN BERSIH WC</ion-card-title>
+    </P>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Bermacam Jenis Deterjen</p>
+      <p>Sekali Gosok KinClong</p>
+      <p>Melawan Segala Jenis Bakteri dan Kuman</p>
+      <p>24 jam/libur buka</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-label>1 X Klik . . . </ion-label>
+    </ion-list-header>
+    <ion-item [routerLink]="'/tabs/tab2/detail'">
+      <ion-icon slot="start" color="medium" name="book"></ion-icon>
+      <ion-label>Pemesanan Langsung</ion-label>
+    </ion-item>
+    <ion-item href="https://api.whatsapp.com/send?phone=+6281330538141&text=Nama%20%3A%0AAlamat%20%3A%0AUsia%20%3A%0AJenis%20kelamin%20%3A">
+      <ion-icon slot="start" color="medium" name="logo-whatsapp"></ion-icon>
+      <ion-label>Watsapp</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Se.WC ID 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p align="center">
+    <img src="assets/Pembuatan saluran.jpg" widht="50" height="70" alt="" />
+  </p>
+  <ion-card class="welcome-card">
+    <ion-slides autoplay="5000" loop="true" speed="3000">
+      <ion-slide>
+        <img src="assets/21.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/23.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/24.jpg" alt="" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/23.jpg" alt="" />
+      </ion-slide>
+    </ion-slides>
+    <ion-card-header>
+    <P align="center">
+      <ion-card-subtitle>MEMPERSEMBAHKAN</ion-card-subtitle>
+      <ion-card-title>LAYANAN Bongkar Pasang Saluran</ion-card-title>
+    </P>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Tersedia Berbagai Ukuran</p>
+      <p>Pekerjaan Tepat dan Cepat</p>
+      <p>Para Ahli BuildPipe</p>
+      <p>24 jam/libur buka</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-label>1 X Klik . . . </ion-label>
+    </ion-list-header>
+    <ion-item [routerLink]="'/tabs/tab3/detail'">
+      <ion-icon slot="start" color="medium" name="book"></ion-icon>
+      <ion-label>Pemesanan Langsung</ion-label>
+      <ion-spinner name="bubbles" ></ion-spinner>
+    </ion-item>
+    <ion-item href="https://api.whatsapp.com/send?phone=+6281330538141&text=Nama%20%3A%0AAlamat%20%3A%0AUsia%20%3A%0AJenis%20kelamin%20%3A">
+      <ion-icon slot="start" color="medium" name="logo-whatsapp"></ion-icon>
+      <ion-label>Watsapp</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
